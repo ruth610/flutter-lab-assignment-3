@@ -22,6 +22,4 @@ class Photo {
   Map<String, dynamic> toJson() => _$PhotoToJson(this);
 
   
-  /// Get a fallback working thumbnail
-  String get workingThumbnail => 'https://picsum.photos/id/$id/50';
 }

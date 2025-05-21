@@ -38,7 +38,7 @@ class AlbumDetailScreen extends StatelessWidget {
                         final photo = state.photos[index];
                         return ListTile(
                           leading: Image.network(
-                            photo.workingThumbnail,
+                            photo.thumbnailUrl,
                             width: 50,
                             height: 50,
                             fit: BoxFit.cover,
